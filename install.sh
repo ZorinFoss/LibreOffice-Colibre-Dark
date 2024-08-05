@@ -29,6 +29,7 @@ echo -e "\n=> 📥 Installing Libreoffice Colibre Dark\n"
 
 sudo mkdir -p -v "/usr/share/libreoffice/share/config"
 sudo cp -v "images_colibre_dark_svg.zip" "/usr/share/libreoffice/share/config/images_colibre_dark_svg.zip"
+sudo chmod 644 "/usr/share/libreoffice/share/config/images_colibre_dark_svg.zip"
 
 for dir in \
     /usr/lib64/libreoffice/share/config \
